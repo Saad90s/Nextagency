@@ -1,18 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
+     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    'node_modules/flowbite-react/lib/esm/**/*.js',
   ],
   theme: {
     extend: {
-      colors: {
-        'neutralSilver': '#F5F7FA',
-        'neutralDGrey': '#40404D',
-        'brandPrimary': '#4CAF4F',
-        'neutralGrey': '#7171717',
+      colors:{
+        'neutralSilver':'#f5f7fa',
+        'neutralDgrey':'#4d4d4d',
+        'brandPrimary':'#4caf4f',
+        'neutralGrey':'#717171',
       }
     },
   },
-  plugins: [],
+  plugins: [ require('flowbite/plugin'), ],
 }
+
