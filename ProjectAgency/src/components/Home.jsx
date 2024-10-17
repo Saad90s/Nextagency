@@ -28,7 +28,7 @@ const Home = () => {
                              Earn <br /><span className='text-brandPrimary leading-snug'>in 4 mounths</span>
                             </h1>
                             <p className='text-neutralDgrey text-base mb-8'>Where to grow your business as a photographer: site or social media?</p>
-                            <button className='btn-primary' >Register</button>
+                            <button className='btn-success ' >Register</button>
                         </div>
                     </div>
                     <div className="my-28 md:my-8 py-12 flex  flex-col md:flex-row-reverse items-center justify-between gap-12 ">
